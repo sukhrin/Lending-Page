@@ -1,0 +1,22 @@
+mixin tagblock()
+    .row.text-muted
+        .col-sm-4
+            .glyphicon.glyphicon-time
+                |  3 days ago
+        .col-sm-8
+            .glyphicon.glyphicon-tags
+            strong Tags:
+                a(href="")  Lorem
+                | ,
+                a(href="")  Lorem
+                | ,
+                a(href="")  Lorem
+
+mixin mediaobject(title)
+    .media
+        a.media-left
+            img.img-circle(src="http:placehold.it/60x60" alt="...")
+
+        .media-body
+            h4.media-heading #{title}
+            p Поскольку в СССР (с 30-х годов) было запрещено использовать мат в общедоступной литературе и СМИ
